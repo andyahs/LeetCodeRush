@@ -1,0 +1,2 @@
+# LeetCodeRush
+刷LeetCode
