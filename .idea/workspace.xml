@@ -1,40 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22ee1cf4-5a93-4d7b-8995-38cabb1029c3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/MyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_000_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_000_Test.java" afterDir="false" />
+    <list default="true" id="22ee1cf4-5a93-4d7b-8995-38cabb1029c3" name="Default" comment="提交测试">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_001_TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_001_TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_002_TwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_002_TwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_003_LongestSubStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_003_LongestSubStr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_004_MedianOfTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_004_MedianOfTwoSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_005_LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_005_LongestPalindromicSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_006_ZigZagConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_006_ZigZagConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_007_ReverseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_007_ReverseInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_008_StringToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_008_StringToInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_011_ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_011_ContainerWithMostWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_012_IntegerToRoman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_012_IntegerToRoman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_013_RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_013_RomanToInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_014_LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_014_LongestCommonPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_0150_BestBuy2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_0150_BestBuy2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_015_3Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_015_3Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_017_LetterCombinOfaPhoNo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_017_LetterCombinOfaPhoNo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_018_4Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_018_4Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_019_RemoveNthNodeOfTheEndOfList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_019_RemoveNthNodeOfTheEndOfList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_020_ValidParenthess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_020_ValidParenthess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_022_GenerateParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_022_GenerateParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_023_MergekSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_023_MergekSortedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_024_swapPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_024_swapPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_025_reverseKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_025_reverseKGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_026_RemoveDuplicatesfromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_026_RemoveDuplicatesfromSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_027_RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_027_RemoveElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_028_ImplementStrstr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_028_ImplementStrstr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_029_Divide2Integer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_029_Divide2Integer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_030_FindAllSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_030_FindAllSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/ax.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_001_TwoSum.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_001_TwoSum.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/_001_TwoSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+            <state relative-caret-position="440">
+              <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#200#218#0" expanded="true" />
@@ -95,11 +65,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_012_IntegerToRoman.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_012_IntegerToRoman.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/_012_IntegerToRoman.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_020_ValidParenthess.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/_020_ValidParenthess.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -144,11 +123,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/_001_TwoSum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/_002_TwoNumbers.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/_000_Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/_003_LongestSubStr.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/_012_IntegerToRoman.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/_001_TwoSum.java" />
       </list>
     </option>
   </component>
@@ -169,7 +148,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="305" />
     <option name="width" value="1950" />
     <option name="height" value="2075" />
@@ -327,16 +306,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534473732050</updated>
-      <workItem from="1534473733737" duration="1493000" />
+      <workItem from="1534473733737" duration="2294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1493000" />
+    <option name="totallyTimeSpent" value="2294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -348,7 +326,7 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49967468" weight="0.29018492" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32859176" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
@@ -373,6 +351,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交测试" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -421,17 +403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/_001_TwoSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#200#218#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/_003_LongestSubStr.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -464,6 +435,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/_020_ValidParenthess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/_001_TwoSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#200#218#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
