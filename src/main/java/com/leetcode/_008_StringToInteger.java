@@ -1,4 +1,4 @@
-package com.leetcode.www;
+package com.leetcode;
 //string to int  consider about some situation
 public class _008_StringToInteger {
 

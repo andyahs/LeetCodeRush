@@ -1,4 +1,4 @@
-package com.leetcode.www;
+package com.leetcode;
 
 public class _025_reverseKGroup {
 	private void mian() {

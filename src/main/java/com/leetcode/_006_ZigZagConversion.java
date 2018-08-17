@@ -1,4 +1,4 @@
-package com.leetcode.www;
+package com.leetcode;
 /*
  * str ="0123456789ABCDEF"
  * n=4

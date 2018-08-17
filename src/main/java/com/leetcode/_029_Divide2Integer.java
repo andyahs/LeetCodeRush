@@ -1,4 +1,4 @@
-package com.leetcode.www;
+package com.leetcode;
 
 public class _029_Divide2Integer {
     public  static long divide(int dividend, int divisor){

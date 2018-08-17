@@ -1,4 +1,4 @@
-package com.leetcode.www;
+package com.leetcode;
 
 import java.util.Iterator;
 import java.util.LinkedList;

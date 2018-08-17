@@ -1,4 +1,4 @@
-package com.leetcode.www;
+package com.leetcode;
 
 import java.awt.List;
 //�ϲ������������

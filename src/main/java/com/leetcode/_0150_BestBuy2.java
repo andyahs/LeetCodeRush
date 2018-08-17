@@ -1,4 +1,4 @@
-package com.leetcode.www;
+package com.leetcode;
 
 /**
  * Created by Andiz

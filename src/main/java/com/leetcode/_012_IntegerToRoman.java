@@ -1,5 +1,5 @@
-package com.leetcode.www;
-//1 to 3999 ת��������
+package com.leetcode;
+//1 to 3999
 public class _012_IntegerToRoman {
 	public static String intToRoman(int num){
 		String res="";

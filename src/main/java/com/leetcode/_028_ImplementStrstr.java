@@ -1,4 +1,4 @@
-package com.leetcode.www;
+package com.leetcode;
 
 public class _028_ImplementStrstr {
     public static  int Strstr(String aString ,String needle){

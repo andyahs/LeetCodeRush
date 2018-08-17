@@ -1,4 +1,4 @@
-package com.leetcode.www;
+package com.leetcode;
 
 //���������  ��ʽΪh*(j-i)  ��������Ϊʲô���� h*((j-i)^2)*��/4,ƽ����������ͬ
 public class _011_ContainerWithMostWater {
