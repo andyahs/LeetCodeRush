@@ -1,41 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22ee1cf4-5a93-4d7b-8995-38cabb1029c3" name="Default" comment="添加217">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_136_SingleNumber.java" afterDir="false" />
+    <list default="true" id="22ee1cf4-5a93-4d7b-8995-38cabb1029c3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_350_IntersectionofTwoArraysII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/_217_ContainsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/_217_ContainsDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/_001_TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leetcode/_001_TwoSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/_002_TwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leetcode/_002_TwoNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/ax.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/MyList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/MyList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/_000_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/_003_LongestSubStr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/_004_MedianOfTwoSortedArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/_005_LongestPalindromicSubstring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/_006_ZigZagConversion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/_007_ReverseInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/_008_StringToInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/_011_ContainerWithMostWater.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/_012_IntegerToRoman.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/_013_RomanToInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/_014_LongestCommonPrefix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/_0150_BestBuy2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/_015_3Sum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/_017_LetterCombinOfaPhoNo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/_018_4Sum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/_019_RemoveNthNodeOfTheEndOfList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/_020_ValidParenthess.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/_022_GenerateParentheses.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/_023_MergekSortedLists.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/_024_swapPairs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/_025_reverseKGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/_026_RemoveDuplicatesfromSortedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/_027_RemoveElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/_028_ImplementStrstr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/_029_Divide2Integer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/www/_030_FindAllSubstring.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +27,7 @@
       <file leaf-file-name="_217_ContainsDuplicate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/_217_ContainsDuplicate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
+            <state relative-caret-position="460">
               <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -68,11 +36,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_136_SingleNumber.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_136_SingleNumber.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/_136_SingleNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="275">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_350_IntersectionofTwoArraysII.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/_350_IntersectionofTwoArraysII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+              <folding>
+                <element signature="e#284#293#0" expanded="true" />
+                <element signature="e#719#728#0" expanded="true" />
+                <element signature="e#778#796#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,6 +95,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/_189_RotateArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/_217_ContainsDuplicate.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/_136_SingleNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/_350_IntersectionofTwoArraysII.java" />
       </list>
     </option>
   </component>
@@ -144,6 +127,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,9 +174,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._136_SingleNumber">
+  <component name="RunManager" selected="Application._350_IntersectionofTwoArraysII">
     <configuration name="_001_TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode._001_TwoSum" />
       <module name="LeetCodeRush" />
@@ -248,6 +231,17 @@
     </configuration>
     <configuration name="_217_ContainsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode._217_ContainsDuplicate" />
+      <module name="LeetCodeRush" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="_350_IntersectionofTwoArraysII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode._350_IntersectionofTwoArraysII" />
       <module name="LeetCodeRush" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -302,9 +296,11 @@
       <item itemvalue="Application._001_TwoSum" />
       <item itemvalue="Application._217_ContainsDuplicate" />
       <item itemvalue="Application._136_SingleNumber" />
+      <item itemvalue="Application._350_IntersectionofTwoArraysII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._350_IntersectionofTwoArraysII" />
         <item itemvalue="Application._136_SingleNumber" />
         <item itemvalue="Application._217_ContainsDuplicate" />
         <item itemvalue="Application._001_TwoSum" />
@@ -322,7 +318,9 @@
       <option name="presentableId" value="Default" />
       <updated>1534473732050</updated>
       <workItem from="1534473733737" duration="7764000" />
-      <workItem from="1534601507684" duration="700000" />
+      <workItem from="1534601507684" duration="1947000" />
+      <workItem from="1534671107645" duration="599000" />
+      <workItem from="1534692647013" duration="782000" />
     </task>
     <task id="LOCAL-00001" summary="提交测试">
       <created>1534476038812</created>
@@ -345,11 +343,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534490077994</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加136">
+      <created>1534602936842</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1534602936842</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8464000" />
+    <option name="totallyTimeSpent" value="11092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
@@ -363,25 +368,25 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003253" side_tool="true" weight="0.3140496" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49967468" weight="0.29018492" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32859176" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49967468" weight="0.29018492" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2367893" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24280937" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39944905" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39944905" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32147938" />
     </layout>
   </component>
@@ -395,9 +400,58 @@
     <MESSAGE value="提交测试" />
     <MESSAGE value="添加189" />
     <MESSAGE value="添加217" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加217" />
+    <MESSAGE value="添加136" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加136" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/_189_RotateArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/_217_ContainsDuplicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/_136_SingleNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/_189_RotateArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/_217_ContainsDuplicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/_136_SingleNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/_189_RotateArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -448,10 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#308#316#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -501,10 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#200#218#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -525,7 +571,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/_217_ContainsDuplicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
+        <state relative-caret-position="460">
           <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -535,8 +581,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/_136_SingleNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="275">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/_350_IntersectionofTwoArraysII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding>
+            <element signature="e#284#293#0" expanded="true" />
+            <element signature="e#719#728#0" expanded="true" />
+            <element signature="e#778#796#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
