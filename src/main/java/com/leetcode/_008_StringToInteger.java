@@ -4,6 +4,7 @@ public class _008_StringToInteger {
 
 		public static int toMyAtoi(String str){
 			//可以先转成char[]来做
+			//str = str.trim();先切掉空白
 			if(str.isEmpty()) return 0;
 			int sign = 1,base = 0, i=0, n=str.length();
 			while(i<n&& str.charAt(i)== ' ') ++i;
