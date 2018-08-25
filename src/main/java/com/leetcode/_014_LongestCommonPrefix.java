@@ -1,7 +1,7 @@
 package com.leetcode;
 
 public class _014_LongestCommonPrefix {
-
+	//最长公共前缀
 	public static String longestComPredix(String[] strs){
 		if(strs == null ||strs.length ==0 ) return "";
 		for(int j = 0;j <strs[0].length(); j++){
