@@ -24,23 +24,21 @@ public class _104_MaximumDepthofBinaryTree {
     int maxdepth = 1;
         nodestack.push(root);
         depthstack.push(maxdepth);
-        while(!nodestack.isEmpty())
-
-    {
-        TreeNode node = nodestack.pop();
-        int d = depthstack.pop();
-        if (d > maxdepth) maxdepth = d;
-        if (node.left != null) {
-            nodestack.push(node.left);
-            depthstack.push(d + 1);
+        while(!nodestack.isEmpty()){
+            TreeNode node = nodestack.pop();
+            int d = depthstack.pop();
+            if (d > maxdepth) maxdepth = d;
+            if (node.left != null) {
+                nodestack.push(node.left);
+                depthstack.push(d + 1);
+            }
+            if (node.right != null) {
+                nodestack.push(node.right);
+                depthstack.push(d + 1);
+            }
         }
-        if (node.right != null) {
-            nodestack.push(node.right);
-            depthstack.push(d + 1);
-        }
-    }
         return maxdepth;
-}
+    }
 
      private static class TreeNode {
       int val;
