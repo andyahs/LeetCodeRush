@@ -12,12 +12,15 @@ package com.leetcode;
 //打家劫舍。依然是初级的动态规划
 public class _198_HouseRobber {
     public int rob(int[] nums) {
-        int a = 0, b = 0;
-        for (int i = 0; i < nums.length; ++i) {
-            int m = a, n = b;
-            a = n + nums[i];
-            b = Math.max(m, n);
+        if(nums.length ==1) return nums[0];
+        if(nums.length ==2) return Math.max(nums[0],nums[1]);
+        int a = 0,b = 0;
+        for (int i = 0; i < nums.length; i++) {
+            int m=a;
+            a = b+nums[i];
+            b= Math.max(m,b);
+
         }
-        return Math.max(a, b);
+        return Math.max(a,b);
     }
 }
