@@ -1,7 +1,5 @@
 package com.leetcode;
 
-import sun.security.util.Length;
-
 import java.util.Random;
 
 /**
