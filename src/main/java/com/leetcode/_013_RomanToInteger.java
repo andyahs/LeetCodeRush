@@ -2,7 +2,7 @@ package com.leetcode;
 
 import java.util.HashMap;
 
-//��������ת����
+//罗马数字转int
 public class _013_RomanToInteger {
 	
 	public static int romanToInt(String s){
