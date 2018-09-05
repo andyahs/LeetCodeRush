@@ -1,12 +1,14 @@
 package com.leetcode;
 
 import java.util.Stack;
-
+//20有效的括号
+//用栈只遍历一遍
+//貌似也可以用数组，左右两个烧饼验证
 public class _020_ValidParenthess {
-	public static boolean isValid(String str){
+	public static boolean isValid(String s){
 		boolean flag = true;
 		Stack<Character> charStack = new Stack<Character> ();
-		char[] charArr = str.toCharArray();
+		char[] charArr = s.toCharArray();
 		for(int i = 0; i<charArr.length;i++){
 			if(charArr[i]=='('||charArr[i]=='{'||charArr[i]=='['){
 				charStack.push(charArr[i]);
@@ -16,13 +18,14 @@ public class _020_ValidParenthess {
 				if(charArr[i]==']'&&charStack.pop()!='[') return false;
 				if(charArr[i]=='}'&&charStack.pop()!='{') return false;
 			}else{
-				System.out.print("�Ƿ���"+charArr[i]+" ");
+				System.out.print("这个非括号"+charArr[i]+" ");
 			}
 		}
+		if (!charStack.isEmpty()) return  false;
 		return flag;
 	}
 	public static void main(String[] args) {
-		String str = "$%{GFH(gfh[fdsgf)65]7}";
+		String str = "$%{";
 		System.out.println(isValid(str));
 	}
 	
