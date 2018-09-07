@@ -1,10 +1,13 @@
 package com.leetcode;
 
+import javax.xml.transform.Result;
 import java.util.Arrays;
 
+//最长回文字符串
 public class _005_LongestPalindromicSubstring {
 	
 	public static String longestPalindrome(String s){
+		if (s.length()<=1) return s;
 		String t = "$#";
 		char [] sArr = s.toCharArray();
 		for(int i = 0; i<sArr.length;++i){
@@ -36,7 +39,8 @@ public class _005_LongestPalindromicSubstring {
 		return s.substring((resId-resMx)/2,(resId+resMx)/2-1);
 	}
 	public static void main(String[] args) {
-		String s = "abatggfs54765789987rty";
+//		String s = "abatggfs54765789987rty";
+		String s = "";
 		String lgestPalindicStr = longestPalindrome(s);
 		System.out.println("lgestPalindicStr:"+lgestPalindicStr);
 	}
