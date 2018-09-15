@@ -1,43 +1,42 @@
 package com.leetcode;
 
-import java.util.Iterator;
-import java.util.LinkedList;
+import java.util.ArrayList;
+import java.util.List;
 
 public class _017_LetterCombinOfaPhoNo {
-	public static LinkedList<String> letterCombin(String digts){
-		LinkedList<String> res =new LinkedList<String>();
-		LinkedList<String> out =new LinkedList<String>();
-		if(digts.isEmpty()) return  res;
-		String dict[] = {"adc","def","ghi","jkl","mno","pqrs","tuv","xyz"};
-		letterCombinationsDFS(digts,dict,0,out,res);
-		return res;
-		
-	}
-	public static void letterCombinationsDFS(String digts,String[] dict,int level,LinkedList<String> out,LinkedList<String> res){
-		if(level ==digts.length()) {
-		
-			String tempStr = out.toString();
-			String tS2 = "";
-			for(int i = 0; i<tempStr.length(); i++){
-				tS2 +=tempStr.charAt(tempStr.length()-1-i);
-			}
-			res.push(tS2);
-		
-//			res.push(out.toString());
-		}else{
-			String str= dict[digts.charAt(level) - '2'];
-			for(int i = 0; i<str.length(); i++){
-				String temp  = Character.toString(str.charAt(i));
-				out.push(temp);
-				letterCombinationsDFS(digts, dict, level+1, out, res);
-				out.pop();
-			}
+
+	//定义每个数字对应的字符
+	static String[] a = new String[] {"","","abc","def",
+			"ghi","jkl","mno","pqrs","tuv","wxyz"};
+	static StringBuffer sb = new StringBuffer();
+
+	public static List<String> letterCombinations(String digits) {
+		if (digits.length() == 0) {
+			return new ArrayList<String>();
 		}
-		
+		List<String> answer = new ArrayList<String>();
+
+		//开始回溯
+		zuhe(digits , 0 , answer);
+		return answer;
 	}
+
+	private static void zuhe(String digits , int n, List<String> answer) {
+		if (n == digits.length()) {
+			answer.add(sb.toString());
+			return;
+		}
+		for (int i = 0; i < a[digits.charAt(n)-'0'].length(); i++) {
+			sb.append(a[digits.charAt(n)-'0'].charAt(i));
+			zuhe(digits, n + 1, answer);
+			sb.deleteCharAt(sb.length() - 1);
+		}
+	}
+
+
 	public static void main(String[] args) {
-		String digts = "2345678";
-		LinkedList<String> letter = letterCombin(digts);
+		String digts = "";
+		List<String> letter = letterCombinations(digts);
 		for(String str:letter){
 			System.out.println(str.toString());
 		}
