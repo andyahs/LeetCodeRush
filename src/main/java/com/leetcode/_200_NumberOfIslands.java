@@ -44,7 +44,7 @@ public class _200_NumberOfIslands {
     //        if (grid == null || grid.length < 1 || grid[0].length < 1){
     //            return 0;
     //        }
-    //
+    //         //这里做了一圈海洋？
     //        int[][] m = new int[grid.length][grid[0].length];
     //        for (int i = 0; i < m.length; i++) {
     //            for (int j = 0; j < m[0].length; j++) {
