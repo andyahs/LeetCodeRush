@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-//��������
+//生成括号
 public class _022_GenerateParentheses {
 
     public List<String> generateParenthesis(int n) {
@@ -52,7 +52,28 @@ public class _022_GenerateParentheses {
     	}
     	return pre;
     }
-    
+
+    //leetcode提供
+    //    public List<String> generateParenthesis(int n) {
+    //        if (n ==0)return null;
+    //        ArrayList<String> list = new ArrayList<>();
+    //        def(0,0,list,new char[n*2],n);
+    //        return list;
+    //    }
+    //
+    //    public void def(int left,int right,ArrayList<String> list,char[] buffer,int n){
+    //        if (left+right ==2*n){
+    //            list.add(String.copyValueOf(buffer));return;
+    //        }
+    //        if (left<n){
+    //            buffer[left+right]='(';
+    //            def(left+1,right,list,buffer,n);
+    //        }
+    //        if (left>right){
+    //            buffer[left+right]=')';
+    //            def(left,right+1,list,buffer,n);
+    //        }
+    //    }
     
     public _022_GenerateParentheses(){};
     
