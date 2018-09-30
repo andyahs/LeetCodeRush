@@ -6,6 +6,7 @@ import java.util.Arrays;
  * Created by Andiz
  * 2018/9/30 23:33
  * coding For love and Peace
+ * 依然是动态规划
  * 322零钱兑换
  * 给定不同面额的硬币 coins 和一个总金额 amount。编写一个函数来计算可以凑成总金额所需的最少的硬币个数。
  * 如果没有任何一种硬币组合能组成总金额，返回 -1。
@@ -33,5 +34,30 @@ public class _322_CoinChange {
                 dp[i] = Math.min(dp[i], dp[i - coins[j]] + 1);
         return dp[amount] > amount ? -1 : dp[amount];
     }
-
+    //leetCode提供的算法
+//    int total;
+//    public int coinChange(int[] coins, int amount) {
+//        total = Integer.MAX_VALUE;
+//       if(amount == 0) return 0;
+//       Arrays.sort(coins);
+//       count(amount, coins.length-1, coins, 0);
+//	   return total == Integer.MAX_VALUE?-1:total;
+//
+//
+//    }
+//    void count(int amount, int index, int[] coins, int count){
+//        if(index < 0 || count >= total -1) return;
+//        int c = amount/coins[index];
+//        for(int i = c; i >=0; i--){
+//            int newCount = count + i;
+//            int rem = amount - i*coins[index];
+//            if(rem > 0 && newCount<total)
+//                count(rem, index - 1, coins, newCount);
+//            else if(newCount<total)
+//                total = newCount;
+//            else if(newCount>=total-1)
+//                break;
+//        }
+//
+//    }
 }
