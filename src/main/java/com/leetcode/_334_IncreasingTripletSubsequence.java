@@ -5,7 +5,7 @@ package com.leetcode;
  * Created by Andiz
  * 2018/9/8 15:56
  * coding For love and Peace
- * 递增的三元子序列
+ * 334递增的三元子序列 Increasing Triplet Subsequence
  * 给定一个未排序的数组，判断这个数组中是否存在长度为 3 的递增子序列。
  *
  * 数学表达式如下:
@@ -28,15 +28,14 @@ package com.leetcode;
 public class _334_IncreasingTripletSubsequence {
     public static boolean increasingTriplet(int[] nums) {
         if (null==nums ||nums.length<=2) return false;
-        int min=Integer.MAX_VALUE,mid = Integer.MAX_VALUE;
-
-        for (int i=0;i<nums.length;i++) {
-            int curVal = nums[i];
-            if (curVal<min){
-                min = curVal;
-            }else if(min<curVal &&curVal <mid){
-                mid =curVal;
-            }else if(curVal!=min &&curVal!=mid) {
+        int left = nums[0],mid=Integer.MAX_VALUE;
+        //本质上用左和中构成了一把尺，找出最低和次低的两个点。
+        for (int curValue:nums) {
+            if (curValue<left){
+                left = curValue;
+            }else if (left <curValue && curValue <mid){
+                mid = curValue;
+            }else if (mid <curValue){
                 return true;
             }
         }
