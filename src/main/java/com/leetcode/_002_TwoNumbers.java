@@ -36,6 +36,34 @@ public class _002_TwoNumbers {
 		}
 		if(carry == 1) curNode.next = new ListNode(1);
 		return head;
+		//leetcode提供
+		//ListNode rs = null;
+		//        ListNode last = null;
+		//        ListNode cur = null;
+		//        int val = 0;
+		//        while (null != l1 || null != l2) {
+		//            if (null != l1) {
+		//                val += l1.val;
+		//                l1 = l1.next;
+		//            }
+		//            if (null != l2) {
+		//                val += l2.val;
+		//                l2 = l2.next;
+		//            }
+		//            cur = new ListNode(val % 10);
+		//            val = val / 10;
+		//            if (null == last) {
+		//                rs = cur;
+		//            } else {
+		//                last.next = cur;
+		//            }
+		//            last = cur;
+		//        }
+		//        if (val > 0) {
+		//            cur = new ListNode(val);
+		//            last.next = cur;
+		//        }
+		//        return rs;
 	}
 
 
