@@ -48,6 +48,22 @@ public class _094_BinaryTreeInorderTraversal {
 //        }
 
 //        return list;
+
+
+        //    private List<Integer> res;
+        //
+        //    public List<Integer> inorderTraversal(TreeNode root) {
+        //        res = new ArrayList<>();
+        //        traversal_recursion(root);
+        //        return res;
+        //    }
+        //    public void traversal_recursion(TreeNode node){
+        //        if(node!=null){
+        //            traversal_recursion(node.left);
+        //            res.add(node.val);
+        //            traversal_recursion(node.right);
+        //        }
+        //    }
     }
 
      public class TreeNode {
