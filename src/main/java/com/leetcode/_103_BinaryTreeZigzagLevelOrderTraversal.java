@@ -10,6 +10,7 @@ import java.util.Stack;
  * 2018/9/11 15:10
  * coding For love and Peace
  *
+ * 103二叉树的锯齿形层次遍历
  * 给定一个二叉树，返回其节点值的锯齿形层次遍历。（即先从左往右，再从右往左进行下一层遍历，以此类推，层与层之间交替进行）。
  * 例如：
  * 给定二叉树 [3,9,20,null,null,15,7],
@@ -59,6 +60,33 @@ public class _103_BinaryTreeZigzagLevelOrderTraversal {
 
         return res;
     }
+
+    //LeetCode提供
+    //    public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
+    //       List<List<Integer>> res=new ArrayList();
+    //        dfs(root,0,res);
+    //        return res;
+    //    }
+    //    public void dfs(TreeNode root,int level,List<List<Integer>> res)
+    //    {
+    //        if(root!=null)
+    //        {
+    //            List<Integer> list=res.size()>level?res.get(level):new ArrayList();
+    //            if(level%2==0)
+    //            {
+    //                list.add(root.val);
+    //            }
+    //            else
+    //            {
+    //                list.add(0,root.val);
+    //            }
+    //            if(level==res.size())
+    //                res.add(list);
+    //             dfs(root.left,level+1,res);
+    //             dfs(root.right,level+1,res);
+    //        }
+    //    }
+
 
     public static class TreeNode {
         int val;
