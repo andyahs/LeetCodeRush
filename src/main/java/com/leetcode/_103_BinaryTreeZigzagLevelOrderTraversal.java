@@ -55,7 +55,7 @@ public class _103_BinaryTreeZigzagLevelOrderTraversal {
             res.add(curListVal);
             curListVal = new ArrayList<>();
             curStack = nextStack;
-            rightFlag = rightFlag? false:true;
+            rightFlag = (rightFlag)? false:true;
         }
 
         return res;
