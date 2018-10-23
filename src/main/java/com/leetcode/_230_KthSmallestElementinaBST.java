@@ -6,7 +6,7 @@ import java.util.Stack;
  * Created by Andiz
  * 2018/9/13 10:06
  * coding For love and Peace
- * Kth Smallest Element in a BST 二叉搜索树中的第K小的元素
+ * 230Kth Smallest Element in a BST 二叉搜索树中的第K小的元素
  * //又称为二叉排序树
  * 给定一个二叉搜索树，编写一个函数 kthSmallest 来查找其中第 k 个最小的元素。
  * 说明：
@@ -81,6 +81,24 @@ public class _230_KthSmallestElementinaBST {
     //        count --;
     //        if (count == 0) return root.val;
     //        return helper(root.right);
+    //    }
+
+
+    //leetCode提供
+    //     public static int kthSmallest(TreeNode root, int k) {
+    //        int num = count(root.left);
+    //        if (num == k - 1){
+    //            return root.val;
+    //        } else if (num > k - 1) {
+    //            return kthSmallest(root.left, k);
+    //        } else {
+    //            return kthSmallest(root.right, k - num - 1);
+    //        }
+    //    }
+    //
+    //    private static int count(TreeNode node){
+    //        if (node == null) return 0;
+    //        return 1 + count(node.left) + count(node.right);
     //    }
     public static class TreeNode {
         int val;
