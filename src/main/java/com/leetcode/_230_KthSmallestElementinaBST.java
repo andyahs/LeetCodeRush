@@ -84,7 +84,7 @@ public class _230_KthSmallestElementinaBST {
     //    }
 
 
-    //leetCode提供
+    //leetCode提供 其实是计算左子树的个数是否等于k-1
     //     public static int kthSmallest(TreeNode root, int k) {
     //        int num = count(root.left);
     //        if (num == k - 1){
