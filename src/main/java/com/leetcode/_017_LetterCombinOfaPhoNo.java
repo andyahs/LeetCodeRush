@@ -17,36 +17,67 @@ import java.util.List;
 尽管上面的答案是按字典序排列的，但是你可以任意选择答案输出的顺序。
 
  */
-
+//本题其实在考察不确定次数的循环地处理
 public class _017_LetterCombinOfaPhoNo {
 
-	//定义每个数字对应的字符
-	static String[] a = new String[] {"","","abc","def",
-			"ghi","jkl","mno","pqrs","tuv","wxyz"};
-	static StringBuffer sb = new StringBuffer();
-
+	//定义字符
+	static String[] no2charMap = new String[]{"abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
+	//初始化
 	public static List<String> letterCombinations(String digits) {
-		if (digits.length() == 0) {
-			return new ArrayList<String>();
+		List<String> res = new ArrayList<>();
+		if (null == digits ||digits .length()<= 0){
+			return res;
 		}
-		List<String> answer = new ArrayList<String>();
-
-		//开始回溯
-		zuhe(digits , 0 , answer);
-		return answer;
+		//写入回溯
+		backTrace(digits,res,"",1);
+		return res;
 	}
 
-	private static void zuhe(String digits , int n, List<String> answer) {
-		if (n == digits.length()) {
-			answer.add(sb.toString());
+	private static void backTrace(String digits,List<String>res, String preStr,int deep){
+		if (preStr.length() == digits.length()){
+			System.out.println(preStr);
+			res.add(preStr);
 			return;
 		}
-		for (int i = 0; i < a[digits.charAt(n)-'0'].length(); i++) {
-			sb.append(a[digits.charAt(n)-'0'].charAt(i));
-			zuhe(digits, n + 1, answer);
-			sb.deleteCharAt(sb.length() - 1);
+		String curString = no2charMap[digits.charAt(deep-1) -'2'];
+		for (int i=0;i<curString.length() ;i++){
+			String nextStr =  preStr + curString.charAt(i);
+			backTrace(digits,res,nextStr,deep+1);
 		}
+
 	}
+
+
+
+	//定义每个数字对应的字符
+//	static String[] a = new String[] {"","","abc","def",
+//			"ghi","jkl","mno","pqrs","tuv","wxyz"};
+//	static StringBuffer sb = new StringBuffer();
+
+//	public static List<String> letterCombinations(String digits) {
+//		if (digits.length() == 0) {
+//			return new ArrayList<String>();
+//		}
+//		List<String> answer = new ArrayList<String>();
+//
+//		//开始回溯
+//		zuhe(digits , 0 , answer);
+//		return answer;
+//	}
+
+//	private static void zuhe(String digits , int n, List<String> answer) {
+//		if (n == digits.length()) {
+//			answer.add(sb.toString());
+//			return;
+//		}
+//		for (int i = 0; i < a[digits.charAt(n)-'0'].length(); i++) {
+//			sb.append(a[digits.charAt(n)-'0'].charAt(i));
+//			zuhe(digits, n + 1, answer);
+//			sb.deleteCharAt(sb.length() - 1);
+//		}
+//	}
+
+	//LeetCode提供
 	//    String[] codes = new String[]{"abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
 	//    public List<String> letterCombinations(String digits) {
 	//        if(digits == null || digits.equals("")){
@@ -71,7 +102,7 @@ public class _017_LetterCombinOfaPhoNo {
 
 
 	public static void main(String[] args) {
-		String digts = "";
+		String digts = "23";
 		List<String> letter = letterCombinations(digts);
 		for(String str:letter){
 			System.out.println(str.toString());
