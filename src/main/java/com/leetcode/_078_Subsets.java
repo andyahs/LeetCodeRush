@@ -56,7 +56,27 @@ public class _078_Subsets {
         }
         return solution;
 
-
     }
+    //LeetCode提供
+    //    List<List<Integer>> list = new ArrayList<>();
+    //    public List<List<Integer>> subsets(int[] nums) {
+    //        dfs(nums,0,"");
+    //        return list;
+    //    }
+    //    List<Integer> l = new ArrayList<>();
+    //    public void dfs(int[] nums,int n,String s){
+    //        if(n == nums.length){
+    //            list.add(new ArrayList(l));
+    //            // l = new ArrayList<>();
+    //            return;
+    //        }
+    //        dfs(nums,n+1,s);
+    //        // s+=String.valueOf(nums[n]);
+    //        // System.out.println(s);
+    //        l.add(nums[n]);
+    //        dfs(nums,n+1,s);
+    //        l.remove(l.size()-1);
+    //
+    //    }
 
 }
