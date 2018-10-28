@@ -67,12 +67,9 @@ public class _078_Subsets {
     //    public void dfs(int[] nums,int n,String s){
     //        if(n == nums.length){
     //            list.add(new ArrayList(l));
-    //            // l = new ArrayList<>();
     //            return;
     //        }
     //        dfs(nums,n+1,s);
-    //        // s+=String.valueOf(nums[n]);
-    //        // System.out.println(s);
     //        l.add(nums[n]);
     //        dfs(nums,n+1,s);
     //        l.remove(l.size()-1);
