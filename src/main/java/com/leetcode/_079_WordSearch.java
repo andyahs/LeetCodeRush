@@ -4,12 +4,10 @@ package com.leetcode;
  * Created by Andiz
  * 2018/9/19 23:41
  * coding For love and Peace
+ * 079单词搜索
  * 给定一个二维网格和一个单词，找出该单词是否存在于网格中。
- *
  * 单词必须按照字母顺序，通过相邻的单元格内的字母构成，其中“相邻”单元格是那些水平相邻或垂直相邻的单元格。同一个单元格内的字母不允许被重复使用。
- *
  * 示例:
- *
  * board =
  * [
  *   ['A','B','C','E'],
@@ -37,13 +35,41 @@ public class _079_WordSearch {
 
     private boolean search(char[][] board, int i, int j, String word, int idx){
         if(idx >= word.length()) return true;
-        if(i < 0 || i >= board.length || j < 0 || j >= board[0].length || board[i][j] != word.charAt(idx)) return false;
+        if(i < 0 || i >= board.length || j < 0 || j >= board[0].length ||
+                board[i][j] != word.charAt(idx)) return false;
         // 将已经搜索过的字母标记一下，防止循环。只要变成另外一个字符，就不会再有循环了。
         board[i][j] ^= 255;
-        boolean res = search(board, i-1, j, word, idx+1) || search(board, i+1, j, word, idx+1) || search(board, i, j-1, word, idx+1) || search(board, i, j+1, word, idx+1);
+        boolean res = search(board, i-1, j, word, idx+1) ||
+                search(board, i+1, j, word, idx+1) ||
+                search(board, i, j-1, word, idx+1) ||
+                search(board, i, j+1, word, idx+1);
         // 再次异或255就能恢复成原来的字母
         board[i][j] ^= 255;
         return res;
     }
+
+    //LeetCode 提供
+    //public boolean exist(char[][] board, String word) {
+    //    char[] w = word.toCharArray();
+    //    for (int y=0; y<board.length; y++) {
+    //    	for (int x=0; x<board[y].length; x++) {
+    //    		if (exist(board, y, x, w, 0)) return true;
+    //    	}
+    //    }
+    //    return false;
+    //}
+    //
+    //private boolean exist(char[][] board, int y, int x, char[] word, int i) {
+    //	if (i == word.length) return true;
+    //	if (y<0 || x<0 || y == board.length || x == board[y].length) return false;
+    //	if (board[y][x] != word[i]) return false;
+    //	board[y][x] ^= 256;
+    //	boolean exist = exist(board, y, x+1, word, i+1)
+    //		|| exist(board, y, x-1, word, i+1)
+    //		|| exist(board, y+1, x, word, i+1)
+    //		|| exist(board, y-1, x, word, i+1);
+    //	board[y][x] ^= 256;
+    //	return exist;
+    //}
 
 }
