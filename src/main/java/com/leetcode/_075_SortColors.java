@@ -19,23 +19,52 @@ package com.leetcode;
  */
 public class _075_SortColors {
 
-    public void sortColors(int[] nums) {
-
-        if(null ==nums ||nums.length<=1) return;
-        int[] count =new int[3];
-        int index =0;
-        for (int i=0;i<nums.length ;i++) count[nums[i]]++;
-        for (int i=0;i< nums.length;i++){
-            if (i <count[0]) {
-                nums[i]=0;
-            }else if(i>=count[0] &&i <count[0]+count[1]){
-                nums[i] =1;
-            }else{
-                nums[i] = 2;
+    //只用O(n)的算法，就是调换位置，这是基于只有三种颜色
+    //所以可以0放在首部和2放在尾部进行遍历
+    public static void sortColors(int[] nums) {
+        int left=0,right = nums.length-1,cur = 0;
+        int temp =0;
+        while (cur<=right){
+            switch (nums[cur]){
+                case 0: temp = nums[cur];
+                        nums[cur] = nums[left];
+                        nums[left] = temp;
+                        cur++;
+                        left++;
+                        break;
+                case 1: cur++;
+                        break;
+                case 2: temp = nums[cur];
+                        nums[cur] = nums[right];
+                        nums[right] = temp;
+                        right--;
+                        break;
             }
         }
-
     }
+
+    public static void main(String[] args) {
+        int[] nums = {1,2,0};
+        sortColors(nums);
+    }
+
+    //暴力计算
+//    public void sortColors(int[] nums) {
+//        if(null ==nums ||nums.length<=1) return;
+//        int[] count =new int[3];
+//        int index =0;
+//        for (int i=0;i<nums.length ;i++) count[nums[i]]++;
+//        for (int i=0;i< nums.length;i++){
+//            if (i <count[0]) {
+//                nums[i]=0;
+//            }else if(i>=count[0] &&i <count[0]+count[1]){
+//                nums[i] =1;
+//            }else{
+//                nums[i] = 2;
+//            }
+//        }
+//
+//    }
     //leetCode提供的解法
     //    public void sortColors(int[] nums) {
     //            int st=0,end=nums.length-1,cur=0;
