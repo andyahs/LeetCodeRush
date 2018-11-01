@@ -4,7 +4,7 @@ package com.leetcode;
  * Created by Andiz
  * 2018/9/23 23:27
  * coding For love and Peace
- * 寻找峰值
+ * 162寻找峰值
  * 峰值元素是指其值大于左右相邻值的元素。
  * 给定一个输入数组 nums，其中 nums[i] ≠ nums[i+1]，找到峰值元素并返回其索引。
  * 数组可能包含多个峰值，在这种情况下，返回任何一个峰值所在位置即可。
@@ -21,20 +21,16 @@ package com.leetcode;
  * 说明:
  * 你的解法应该是 O(logN) 时间复杂度的。
  */
-public class _168_FindPeakElement {
+public class _162_FindPeakElement {
     public int findPeakElement(int[] nums) {
-        if(nums.length == 0) return 0;
         int start = 0;
         int end = nums.length - 1;
-        while(start <= end){
-            if(start == end) return start;
-
-            int mid = start + (end - start) / 2;
-
-            if(nums[mid] < nums[mid+1]){
+        int mid = 0;
+        while (start < end) {
+            mid = start + (end - start) / 2;
+            if (nums[mid] <= nums[mid + 1]) {
                 start = mid + 1;
-            }
-            else{
+            } else {
                 end = mid;
             }
         }
