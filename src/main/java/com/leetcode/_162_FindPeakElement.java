@@ -22,6 +22,7 @@ package com.leetcode;
  * 你的解法应该是 O(logN) 时间复杂度的。
  */
 public class _162_FindPeakElement {
+    //凑出一个nums[start] >nums[end]的情况
     public int findPeakElement(int[] nums) {
         int start = 0;
         int end = nums.length - 1;
