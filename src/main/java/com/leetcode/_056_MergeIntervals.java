@@ -64,29 +64,8 @@ public class _056_MergeIntervals {
         }
     }
 
-    public static void main(String[] args) {
-        ArrayList<String> list = new ArrayList<String>();
-        System.out.println("----------add-----------");
-        list.add("图书一");		list.add("图书二");		list.add("图书三");
-//            for循环遍历
-        for (int i = 0; i < list.size(); i++) {
-            String str = list.get(i);			System.out.println(str);
-        }
-        System.out.println("-----------------update-----------");
-        list.set(0, "金瓶梅");
-//             iterator迭代器遍历
-        Iterator<String> it = list.iterator();
-        while(it.hasNext()){
-            String str = it.next();
-            System.out.println(str);
-        }
-        System.out.println("-------------delete-------------------");
-        list.remove(1);		//foreach循环
-        for (Object o : list) {
-            System.out.println(list);
-        }
-    }
-
+    //LeetCode提供
+    //    public List<Interval> merge(List<Interval> intervals) {
     //        int n=intervals.size();
     //        int[] starts=new int[n];
     //        int[] ends=new int[n];
@@ -104,4 +83,32 @@ public class _056_MergeIntervals {
     //            }
     //        }
     //        return res;
+    //    }
+
+
+
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<String>();
+        System.out.println("----------add-----------");
+        list.add("图书一");		list.add("图书二");		list.add("图书三");
+//            for循环遍历
+        for (int i = 0; i < list.size(); i++) {
+            String str = list.get(i);			System.out.println(str);
+        }
+        System.out.println("-----------------update-----------");
+        list.set(0, "bookx");
+//             iterator迭代器遍历
+        Iterator<String> it = list.iterator();
+        while(it.hasNext()){
+            String str = it.next();
+            System.out.println(str);
+        }
+        System.out.println("-------------delete-------------------");
+        list.remove(1);		//foreach循环
+        for (Object o : list) {
+            System.out.println(list);
+        }
+    }
+
+
 }
