@@ -5,7 +5,7 @@ package com.leetcode;
  * Created by Andiz
  * 2018/9/26 23:48
  * coding For love and Peace
- *033搜索旋转排序数组
+ * 033搜索旋转排序数组
  * 假设按照升序排序的数组在预先未知的某个点上进行了旋转。
  * ( 例如，数组 [0,1,2,4,5,6,7] 可能变为 [4,5,6,7,0,1,2] )。
  * 搜索一个给定的目标值，如果数组中存在这个目标值，则返回它的索引，否则返回 -1 。
@@ -21,6 +21,7 @@ package com.leetcode;
  * 输出: -1
  */
 public class _033_SearchinRotatedSortedArray {
+    //基本都是同一算法,主要要先比较target与nums[right]的大小，判断在左半部还是右半部
     public static int search(int[] nums, int target) {
         int left= 0,right= nums.length-1;
         while(left <= right){
