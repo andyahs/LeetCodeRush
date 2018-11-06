@@ -26,16 +26,32 @@ package com.leetcode;
  * 给定 target = 20，返回 false。
  */
 public class _240_Searcha2DMatrixII {
+
+    //换个方向测试
     public boolean searchMatrix(int[][] matrix, int target) {
         if (matrix == null || matrix.length == 0|| matrix[0] == null || matrix[0].length == 0) return false;
-//        if (target < matrix[0][0] || target > matrix[matrix[0].length-1][matrix.length-1]) return false;
-        int x = matrix.length - 1, y = 0;
-        while (true) {
-            if (matrix[x][y] > target) --x;
-            else if (matrix[x][y] < target) ++y;
+        int row = 0, col =matrix[0].length-1;
+        while (true){
+            if (matrix[row][col] >target) col--;
+            else if (matrix[row][col]<target) row++;
             else return true;
-            if (x < 0 || y >= matrix[0].length) break;
+            if (row >matrix.length-1||col <0 ) break;
         }
+
         return false;
     }
+
+    //原答案
+//    public boolean searchMatrix(int[][] matrix, int target) {
+//        if (matrix == null || matrix.length == 0|| matrix[0] == null || matrix[0].length == 0) return false;
+////        if (target < matrix[0][0] || target > matrix[matrix[0].length-1][matrix.length-1]) return false;
+//        int x = matrix.length - 1, y = 0;
+//        while (true) {
+//            if (matrix[x][y] > target) --x;
+//            else if (matrix[x][y] < target) ++y;
+//            else return true;
+//            if (x < 0 || y >= matrix[0].length) break;
+//        }
+//        return false;
+//    }
 }
