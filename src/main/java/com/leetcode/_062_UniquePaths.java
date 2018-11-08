@@ -25,6 +25,7 @@ package com.leetcode;
  * 输入: m = 7, n = 3
  * 输出: 28
  */
+//这题给我带来的思考已经记住了
 public class _062_UniquePaths {
     public static int uniquePaths(int m, int n) {
         int[][] arr=  new int[m][n];
@@ -53,6 +54,19 @@ public class _062_UniquePaths {
     //            }
     //        }
     //        return dp[n - 1];
+    //    }
+
+    //其实那位把mn搞反了，但是不影响结果
+    //    public int uniquePaths(int m, int n) {
+    //        if(n==1|| m==1) return 1;
+    //        int[] arr=  new int[m];
+    //        Arrays.fill(arr,1);
+    //        for(int i=1;i<n;i++){
+    //            for(int j=1;j<m;j++){
+    //                arr[j] +=arr[j-1];
+    //            }
+    //        }
+    //        return arr[m-1];
     //    }
 
     public static void main(String[] args) {
