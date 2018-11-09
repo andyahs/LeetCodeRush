@@ -24,6 +24,8 @@ import java.util.Arrays;
  * 你可以认为每种硬币的数量是无限的。
  */
 public class _322_CoinChange {
+    //这种方法当做跳格子，每一格子所需要最少步数。比如coin[] = {1,3,5}
+    //amout =5 则dp[] = {1,2,1,2,1};
     public int coinChange(int[] coins, int amount) {
         if (coins == null || coins.length == 0 || amount <= 0) return 0;
         int[] dp = new int[amount + 1];
