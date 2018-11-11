@@ -8,8 +8,8 @@ import java.util.TreeSet;
  * 2018/10/2 22:18
  * coding For love and Peace
  *
+ *300最长上升子序列
  * Longest Increasing Subsequence
- *
  * 给定一个无序的整数数组，找到其中最长上升子序列的长度。
  * 示例:
  * 输入: [10,9,2,5,3,7,101,18]
@@ -33,4 +33,43 @@ public class _300_LongestIncreasingSubsequence {
         }
         return set.size();
      }
+
+     //LeetCode提供
+    //    public int lengthOfLIS(int[] nums) {
+    //        int n = nums.length;
+    //        if(n==0){
+    //            return 0;
+    //        }
+    //        if(n==1){
+    //            return 1;
+    //        }
+    //        int[] dp = new int[n];
+    //        int[] end = new int[n+1];
+    //        end[1] = nums[0];
+    //        int len = 1;
+    //        for(int i=1;i<n;i++) {
+    //            int ps = binary(end,1,len,nums[i]);
+    //            end[ps] = nums[i];
+    //            if(len < ps){
+    //                len = ps;
+    //            }
+    //        }
+    //        return len;
+    //    }
+    //
+    //    public int binary(int[] arr,int s,int e,int val) {
+    //        int mid;
+    //        if(arr[e] < val) {
+    //            return e+1;
+    //        }
+    //        while(s<e) {
+    //            mid = s + (e-s) /2;
+    //            if(arr[mid] < val) {
+    //                s = mid + 1;
+    //            } else {
+    //                e = mid;
+    //            }
+    //        }
+    //        return s;
+    //    }
 }
