@@ -23,6 +23,7 @@ import java.util.TreeSet;
  * 其他还有用数组，用stack等做法，可以二分法覆盖掉原来的相应的小数
  */
 public class _300_LongestIncreasingSubsequence {
+    //两种算法的核心依然是构建二叉树
     public int lengthOfLIS(int[] nums) {
         TreeSet<Integer> set =  new TreeSet<>();
         for (int num :
