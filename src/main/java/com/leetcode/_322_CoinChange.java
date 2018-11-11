@@ -36,6 +36,10 @@ public class _322_CoinChange {
                 dp[i] = Math.min(dp[i], dp[i - coins[j]] + 1);
         return dp[amount] > amount ? -1 : dp[amount];
     }
+
+    //或者求最小公倍数?然后在依次算最小步数,上一种算法有很多地方可以优化
+
+
     //leetCode提供的算法
 //    int total;
 //    public int coinChange(int[] coins, int amount) {
