@@ -39,6 +39,8 @@ import java.util.*;
  * // 由于 2 是集合中唯一的数字，getRandom 总是返回 2 。
  * randomSet.getRandom();
  */
+
+//LeetCode提供的方法其实是借用了ArrayList和HashMap的特性，一个用来查下标，一个用hash来搜索
 public class _380_InsertDeleteGetRandomO1 {
     List<Integer> list;
     int num;
@@ -68,7 +70,6 @@ public class _380_InsertDeleteGetRandomO1 {
             return false;
         } else if (num == 0) {
             map.remove(val);
-            return true;
         } else {
             int removedIndex = map.get(val);
             int backElement = list.get(num - 1);
@@ -76,8 +77,8 @@ public class _380_InsertDeleteGetRandomO1 {
             list.set(removedIndex, backElement);
             num--;
             map.remove(val);
-            return true;
         }
+        return true;
 
     }
 
