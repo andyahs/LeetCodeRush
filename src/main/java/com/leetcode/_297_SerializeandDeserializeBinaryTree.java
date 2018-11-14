@@ -78,6 +78,42 @@ public class _297_SerializeandDeserializeBinaryTree {
         TreeNode(int x) { val = x; }
     }
 
-    //LeetCode提供
+    //LeetCode提供  第一种与以上类似
+    //第二种
+    //    // Encodes a tree to a single string.
+    //    public List<Integer> serialize(TreeNode root) {
+    //        List<Integer> res = new ArrayList<>();
+    //        dfs(res, root);
+    //        return res;
+    //    }
     //
+    //    private void dfs(List<Integer> res, TreeNode root) {
+    //        if (root == null) {
+    //            res.add(null);
+    //        } else {
+    //            res.add(root.val);
+    //            dfs(res, root.left);
+    //            dfs(res, root.right);
+    //        }
+    //    }
+    //
+    //    // Decodes your encoded data to tree.
+    //    public TreeNode deserialize(List<Integer> data) {
+    //        int index[] = {0};
+    //        TreeNode root = build(index, data);
+    //        return root;
+    //    }
+    //
+    //    private TreeNode build(int[] index, List<Integer> data) {
+    //        Integer val = data.get(index[0]);
+    //        index[0] = index[0] + 1;
+    //        if (val == null) {
+    //            return null;
+    //        } else {
+    //            TreeNode node = new TreeNode(val);
+    //            node.left = build(index, data);
+    //            node.right = build(index, data);
+    //            return node;
+    //        }
+    //    }
 }
