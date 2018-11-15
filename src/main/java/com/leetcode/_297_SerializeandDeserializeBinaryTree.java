@@ -43,6 +43,7 @@ public class _297_SerializeandDeserializeBinaryTree {
         return root;
     }
 
+    //这里int[] index = new int[]{0}; 就是用来计数的？
     public TreeNode reCreateTree(String[] str, int[] index) {
         TreeNode root = null;
         if (index[0] < str.length) {
