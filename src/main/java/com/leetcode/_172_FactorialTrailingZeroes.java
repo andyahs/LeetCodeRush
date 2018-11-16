@@ -21,12 +21,20 @@ package com.leetcode;
  *
  */
 public class _172_FactorialTrailingZeroes {
-    public int trailingZeroes(int n) {
-        int res = 0;
-        while (n > 0) {
-            res += n / 5;
-            n /= 5;
+//    public int trailingZeroes(int n) {
+//        int res = 0;
+//        while (n > 0) {
+//            res += n / 5;
+//            n /= 5;
+//        }
+//        return res;
+//    }
+
+    //递归写法
+    public int trailingZeroes(int n){
+        if (n >=5){
+            return n/5+trailingZeroes(n/5);
         }
-        return res;
+        return 0;
     }
 }
